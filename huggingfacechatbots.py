@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # API_URL = "https://api-inference.huggingface.co/models/openai-community/gpt2"
-API_URL = "https://api-inference.huggingface.co/models/tiiuae/falcon-11B"
+API_URL = "https://api-inference.huggingface.co/models/openai-community/gpt2"
 # API_TOKEN = "your_hugging_face_api_token"
 API_TOKEN = "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"
 
