@@ -1,0 +1,8 @@
+# google-generativeai
+# streamlit
+
+streamlit==1.26.0
+requests==2.31.0
+transformers==4.33.2
+# torch==2.0.1  # If using PyTorch-based models
+# tensorflow==2.14.0  # If using TensorFlow-based models
