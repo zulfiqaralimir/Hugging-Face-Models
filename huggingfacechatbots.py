@@ -26,14 +26,14 @@ else:
 
 
 
-# st.title("Hugging Face LLM Endpoint with Streamlit")
+st.title("Hugging Face LLM Endpoint with Streamlit")
 
-# user_input = st.text_input("Enter a prompt:")
+user_input = st.text_input("Enter a prompt:")
 
-# if user_input:
-#     # Query the model via the API
-#     output = query({"inputs": user_input})
+if user_input:
+    # Query the model via the API
+    output = query({"inputs": user_input})
 
-#     # Display the generated text
-#     st.write("Generated text:")
-#     st.write(output[0]["generated_text"])
+    # Display the generated text
+    st.write("Generated text:")
+    st.write(output[0]["generated_text"])
